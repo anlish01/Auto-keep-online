@@ -1,0 +1,21 @@
+{
+  "name": "keep-online",
+  "version": "2.0.0",
+  "description": "Auto-keep-online",
+  "main": "index.js",
+  "author": "eoovve",
+  "repository": "https://github.com/eoovve/Auto-keep-online",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "node-cron": "^2.0.1",
+    "moment-timezone": "latest"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
